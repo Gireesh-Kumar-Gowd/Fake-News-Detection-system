@@ -20,8 +20,8 @@ stop_words = set(stopwords.words('english'))
 ps = PorterStemmer()
 
 # Load model and vectorizer
-model = load_model('C:/Users/HP/OneDrive/Documents/projects/Fake News prediction system/FakeNewsNet.keras')
-vectorizer = joblib.load('C:/Users/HP/OneDrive/Documents/projects/Fake News prediction system/vectorizer.joblib')
+model = load_model('FakeNewsNet.keras')
+vectorizer = joblib.load('vectorizer.joblib')
 
 # App styling
 st.set_page_config(page_title="📰 Fake News Detector", page_icon="🕵️‍♂️", layout="centered")
