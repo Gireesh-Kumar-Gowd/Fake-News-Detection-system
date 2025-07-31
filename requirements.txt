@@ -1,8 +1,10 @@
-tensorflow
+streamlit
 scikit-learn
+nltk
+tensorflow
+joblib
+transformers
+torch
+joblib
 numpy
 pandas
-nltk
-streamlit
-streamlit-option-menu
-joblib
